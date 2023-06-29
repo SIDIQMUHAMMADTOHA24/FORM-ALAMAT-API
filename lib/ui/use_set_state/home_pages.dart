@@ -26,7 +26,8 @@ class AppPages extends StatefulWidget {
 
 class _AppPagesState extends State<AppPages> {
   AlamatProvider alamatProvider = AlamatProvider();
-  List<Provinsi> provinsiList = [];
+
+  List<Provinsi> provinsiList   = [];
   List<Kabupaten> kabupatenList = [];
   List<Kecamatan> kecamatanList = [];
   List<Kalurahan> kalurahanList = [];
